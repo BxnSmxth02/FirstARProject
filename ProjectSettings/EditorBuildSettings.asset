@@ -5,9 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+  - enabled: 0
+    path: Assets/Scenes/FiringBalls.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/Scenes/FaceTracker.unity
+    guid: f31c440bab80d6243a920298dfec3884
+  - enabled: 1
+    path: Assets/Scenes/BrickBreak.unity
+    guid: ab02493fe56c8ed488fa3ea90c897e85
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: d94bb83e3eddff14fa14cdeb1cb62aaa, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 8af348b2a80a36140bfae3415dabc242, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 79c6d4ceb06c58a418e63a1890f044d5, type: 2}
